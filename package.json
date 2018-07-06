@@ -1,12 +1,24 @@
 {
   "name": "ng-utils",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Angular2 utils for creating standard apps quickly.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc --watch",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare" : "npm run build",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adadgio/ng-utils.git"
   },
   "keywords": [],
   "author": "Romain BRUCKERT <romain@360medics.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
 }
