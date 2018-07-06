@@ -1,6 +1,6 @@
 {
   "name": "adadgio-ng-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular2 utils for creating standard apps quickly.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
